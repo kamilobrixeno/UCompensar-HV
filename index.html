@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Hoja Vida</title>
 
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Nunito:ital@0;1&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 </head>
 
 <body>
@@ -24,63 +24,180 @@
         </div>
     </header>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="#sobre-mi">Sobre Mí</a></li>
-            <li><a href="#experiencia">Experiencia</a></li>
-            <li><a href="#educacion">Educación</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Secciones del contenido -->
+
     <section id="sobre-mi">
-        <h2>Sobre Mí</h2>
-        <p>Aquí va una breve descripción sobre ti.</p>
+        <div class="container-section h-300 bckgrnd-light">
+            <div class="content-big">
+                <div>
+                    <h2>Sobre Mí</h2>
+                    <p>Desarrollador Full Stack con amplia experiencia en el sector tecnológico
+                        bancario, con conocimientos en diferentes herramientas en lenguaje de 
+                        programación, manejo de inglés y alta dinamismo para aprendizaje de 
+                        nuevos negocios y habilidades en el campo profesional y personal</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="experiencia">
-        <h2>Experiencia</h2>
-        <p>Aquí va tu experiencia laboral.</p>
+        <div class="container-section h-1100 bckgrnd-dark">
+            <div class="content-big">
+                <div>
+                    <h2>Experiencia</h2>
+                    <div class="timeline-container">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>SOLUTION CONSULTANT 1</h3>
+                                <p>SOPHOS SOLUTIONS</p>
+                                <span>Noviembre 2020 - Presente</span>
+                                <p>Desarrollo en Angular para soluciones Frontend, manejo GIT Azure, 
+                                    AWS services y UNITESTS, bajo marco Scrum. Implementación de 
+                                    soluciones de onboarding para canales digitales clientes banco, 
+                                    apoyo tecnico a equipo de trabajo sobre soluciones del cliente</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>DEVELOPER 3</h3>
+                                <p>SII COLOMBIA</p>
+                                <span>Julio 2018 - Noviembre 2020</span>
+                                <p>Desarrollo en Angular JS, Angular all versions, .Net, C#, Node JS, Ionic, 
+                                    HTML, CSS/LESS, BOOTSTRAP. Metodologías agiles (Scrum). Base de 
+                                    Datos ORACLE – SQL SERVER – SQL LITE – NOSQL. Team Fundation 
+                                    Sever, GIT. Go Any Where. Servicios WCF, Web Services y API
+                                    (Rest/SOAP), Node JS, .Net Core 2.0-3.0, arquitectura microservicios, 
+                                    UNITESTS</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>INGENIERO DESARROLLADOR</h3>
+                                <p>PEOPLETECH</p>
+                                <span>Septiembre 2016 - Junio 2018</span>
+                                <p>Desarrollo en arquitecturas MVC y Capas C#, .net, PHP, GENEXUS X, 
+                                    Angular JS - 4, Razor, HTML, CSS/LESS, JS, BOOTSTRAP. Manejo de base 
+                                    de datos SQL SERVER – MY SQL-NOSQL, JAVASCRIPT.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="educacion">
-        <h2>Educación</h2>
-        <p>Aquí va tu formación académica.</p>
+        <div class="container-section h-680 bckgrnd-light">
+            <div class="content-big">
+                <div>
+                    <h2>Educación</h2>
+                    <div class="timeline-container">
+                        <div class="timeline-item">
+                            <div class="timeline-content w-700">
+                                <h3>INGENIERIA DE SOFTWARE</h3>
+                                <p>UCOMPENSAR</p>
+                                <span>AGOSTO 2023 - Presente</span>
+                                <p>3 Semestre</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content w-700">
+                                <h3>INGENIERIA DE SISTEMAS</h3>
+                                <p>UNIMINUTO</p>
+                                <span>Enero 2010 - Agosto 2014</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="habilidades">
-        <h2>Habilidades</h2>
-        <p>Aquí van tus habilidades.</p>
+        <div class="container-section h-680 bckgrnd-dark">
+            <div class="content-big">
+                <div>
+                    <h2>Habilidades</h2>
+                    <div class="lista w-700">
+                        <ul class="opcion">
+                            <li class="opcion-item">
+                                ReactJS
+                                <span class="detalle">Dominio de Componentes, Manejo del Ciclo de Vida, Familiaridad con el uso de hooks como useState, 
+                                    useEffect, y useContext para manejar el estado y efectos secundarios, React Router, Integración con API.</span>
+                            </li>
+                            <li class="opcion-item">
+                                Angular
+                                <span class="detalle">Comprensión de la arquitectura basada en módulos, Conocimiento en la creación y uso de directivas personalizadas,
+                                    Inyección de Dependencias, Habilidad para trabajar con programación reactiva usando RxJS.
+                                </span>
+                            </li>
+                            <li class="opcion-item">
+                                Bases de Datos SQL
+                                <span class="detalle">Capacidad para escribir consultas SQL complejas, incluyendo JOIN, GROUP BY, y subconsultas. 
+                                    Habilidad para crear procedimientos almacenados y desencadenadores (triggers) en bases de datos.</span>
+                            </li>
+                            <li class="opcion-item">
+                                Servicios AWS
+                                <span class="detalle">AWS EC2, AWS S3, Experiencia en la implementación de funciones serverless con AWS Lambda,
+                                    Conocimiento en la configuración y gestión de bases de datos relacionales utilizando Amazon RDS.</span>
+                            </li>
+                            <li class="opcion-item">
+                                Diseño Web
+                                <span class="detalle">Dominio en la creación de estructuras semánticas con HTML5 y estilos responsivos utilizando CSS3,
+                                    Habilidad para implementar JavaScript, Frameworks CSS (Bootstrap), UX/UI Design Principles.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Aquí van tus datos de contacto.</p>
-    </section>
-
-
-    <footer class="footer">
+    <footer>
         <div class="footer-container">
-            <h3>Contacto</h3>
-            <p>Email: <a href="mailto:contacto@tusitio.com">contacto@tusitio.com</a></p>
-            <p>Teléfono: 123-456-7890</p>
-            
-            <h3>Síguenos</h3>
-            <div class="social-icons">
-                <a href="https://facebook.com/tusitio" target="_blank" aria-label="Facebook">
-                    <img src="icon-facebook.png" alt="Facebook">
-                </a>
-                <a href="https://twitter.com/tusitio" target="_blank" aria-label="Twitter">
-                    <img src="icon-twitter.png" alt="Twitter">
-                </a>
-                <a href="https://linkedin.com/in/tusitio" target="_blank" aria-label="LinkedIn">
-                    <img src="icon-linkedin.png" alt="LinkedIn">
-                </a>
-                <a href="https://instagram.com/tusitio" target="_blank" aria-label="Instagram">
-                    <img src="icon-instagram.png" alt="Instagram">
-                </a>
+            <div class="content-small">
+                <div>
+                    <div class="title-box">
+                        <h3>Contacto</h3>
+                    </div>    
+                    <div class="box-simple">
+                        <div class="text-box">
+                            <p>Email: <a href="mailto:contacto@tusitio.com">christianbriceno@mail.com</a></p>
+                            <p>Teléfono: 312 334 4588</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="title-box">
+                        <h3>Redes Sociales</h3>
+                    </div>
+                    <div class="box">
+                        <div class="social-icons">
+                            <a href="https://facebook.com/tusitio" target="_blank" aria-label="Facebook">
+                                <i class="fab fa-facebook"></i> Facebook
+                            </a>
+                            <a href="https://twitter.com/tusitio" target="_blank" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i> Twitter
+                            </a>
+                            <a href="https://linkedin.com/in/tusitio" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://instagram.com/tusitio" target="_blank" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
